@@ -2,6 +2,7 @@
   "name": "url-to-markdown",
   "version": "0.0.1",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,6 +15,7 @@
   "dependencies": {
     "@mozilla/readability": "^0.4.2",
     "jsdom": "^20.0.0",
+    "node-fetch": "^3.2.6",
     "turndown": "^7.1.1"
   }
 }
