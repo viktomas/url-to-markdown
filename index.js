@@ -2,8 +2,12 @@ import { Readability } from '@mozilla/readability';
 import { JSDOM } from 'jsdom';
 import TurndownService from 'turndown';
 import fetch from 'node-fetch';
+import yargs from 'yargs';
+import { hideBin } from 'yargs/helpers';
 
-if (process.argv.length !== 3) {
+const argv = yargs(hideBin(process.argv)).argv;
+
+if (argv._.length !== 1) {
   console.error('You need to pass URL as the only argument');
   process.exit(1);
 }
