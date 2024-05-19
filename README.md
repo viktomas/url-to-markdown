@@ -2,7 +2,7 @@
 
 `url-to-markdown` is a script that combines [mozilla/readability](https://github.com/mozilla/readability) with [mixmark-io/turndown](https://github.com/mixmark-io/turndown) to let you parse an article on the web into markdown with one command.
 
-1. Install [Node](https://nodejs.org/en/)
+1. Install [Node](https://nodejs.org/en/) > 12
 1. Install [Git](https://git-scm.com/)
 1. Checkout this repo `git checkout https://github.com/viktomas/url-to-markdown.git`
 1. Enter the folder `cd url-to-markdown`
